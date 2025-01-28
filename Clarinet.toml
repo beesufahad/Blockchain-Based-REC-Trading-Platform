@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/rec-registry.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.renewable-project-nft]
+path = 'contracts/renewable-project-nft.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
